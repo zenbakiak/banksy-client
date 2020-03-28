@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.session-form {
+  width: 400px;
+  margin: 1em auto;
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 #1abc9c;
+  min-height: 400px;
+}
+
+input[type="text"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 3px;
+  font-size: 0.8em;
+  margin-bottom: 0.8em;
+}
+
+.block {
+  display: block;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.8em 1.2em;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+h1 {
+  margin: 0.5em 0;
+  padding: 0.5em 0;
+  font-size: 1.3em;
+}
+
+.container {
+  width: 600px;
+  margin: 1em auto;
+  border: 1px solid #f3f4f4;
+  min-height: 400px;
+  padding: 1em;
+}
+
+.logout {
+  margin: 0.8em;
+}
+
+.concept {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  color: #34495e;
+}
+
+.amount {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  color: #34495e;
+}
+
+.beneficiary {
+  color: #bdc3c7;
+}
+
+.movements {
+  width: 100%;
+}
+.movements td {
+  vertical-align: top;
+}
+
+.description {
+  width: 80%;
+}
+
+.amount-col {
+  text-align: right;
+}
+
+.new-payment {
+  margin-top: 3em;
+  padding: 0.8em;
+  border-radius: 4px;
+  text-transform: uppercase;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  outline: none;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.select-user,
+.amount-input,
+textarea {
+  margin-top: 1em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 40%;
+  display: inline-block;
+  padding: 1em;
+  border: 1px solid #3498db;
+  border-radius: 4px;
+}
+
+.amount-input {
+  width: 30%;
+  margin-left: 0.8em;
+}
+
+.send-payment-button {
+  margin-top: 1em;
+  padding: 1.1em;
+  margin-left: 0.8em;
+  width: 26%;
+}
+
+button:disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.amount.withdrawal {
+  color: #c0392b;
+}
+.amount.payment {
+  color: #1abc9c;
+}
